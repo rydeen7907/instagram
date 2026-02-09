@@ -16,6 +16,7 @@ import re
 import os
 import subprocess
 
+
 class InstaDownloaderApp:
     def __init__(self, root):
         self.root = root
@@ -191,6 +192,7 @@ class InstaDownloaderApp:
 
     def update_status(self, message):
         self.status_var.set(message)
+
 
 if __name__ == "__main__":
     root = tk.Tk()

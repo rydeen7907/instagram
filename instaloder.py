@@ -88,7 +88,7 @@ class InstaDownloaderApp:
         self.status_label.pack(pady=10)
 
         # 注意書き
-        note_label = ttk.Label(main_frame, text="※ 公開アカウントの投稿のみ対応しています", font=("Helvetica", 10, "bold"))
+        note_label = ttk.Label(main_frame, text="※ 公開アカウントの投稿のみ対応しています", font=("Helvetica", 10, "bold"), foreground="red")
         note_label.pack(side=tk.BOTTOM)
 
     def toggle_login_inputs(self):

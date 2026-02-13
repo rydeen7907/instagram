@@ -21,7 +21,7 @@ class InstaDownloaderApp:
     def __init__(self, root):
         self.root = root
         self.root.title("Instagram Downloader")
-        self.root.geometry("500x450")
+        self.root.geometry("350x375")
         self.root.resizable(False, False)
         self.is_logged_in = False  # ログイン状態を管理
 
@@ -88,7 +88,7 @@ class InstaDownloaderApp:
         self.status_label.pack(pady=10)
 
         # 注意書き
-        note_label = ttk.Label(main_frame, text="※ 公開アカウントの投稿のみ対応しています", font=("Helvetica", 8))
+        note_label = ttk.Label(main_frame, text="※ 公開アカウントの投稿のみ対応しています", font=("Helvetica", 10, "bold"))
         note_label.pack(side=tk.BOTTOM)
 
     def toggle_login_inputs(self):

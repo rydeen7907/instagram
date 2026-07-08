@@ -4,6 +4,7 @@ import os # ファイルパスの操作
 import time # 待機時間のために使用
 import random # ランダムな待機時間を生成するために使用
 
+
 class InstagramDownloader:
     def __init__(self):
         # Instaloaderの初期化

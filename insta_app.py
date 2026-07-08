@@ -1,3 +1,8 @@
+"""
+    Instagramの投稿をダウンロードするGUIアプリケーション
+    起動ファイル： insta_app.py
+"""
+
 import sys
 import tkinter as tk
 from tkinter import messagebox, ttk
